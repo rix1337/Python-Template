@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+    rix-template:
+        container_name: 'Python-Template'
+        ports:
+            - 'port:8080'
+        volumes:
+            - '/path/to/config/:/config:rw'
+        environment:
+            - 'EXAMPLE=test'
+        image: 'rix1337/docker-rix-template:latest'
