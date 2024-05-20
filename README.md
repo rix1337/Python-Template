@@ -21,8 +21,6 @@ Full template for python web projects with Docker, GitHub Actions, PyPI, and mor
 * `DOCKERUSER` dockerhub username
 * `DOCKERPASS` dockerhub token
 * `PYPI_TOKEN` PyPI token
-* `CR_USER` GitHub username
-* `CR_PAT` GitHub token with repo workflow access
 
 # Setup
 

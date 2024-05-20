@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Python-Template
-# Projekt by https://github.com/rix1337
+# Project by https://github.com/rix1337
 
 import setuptools
 
