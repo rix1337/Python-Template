@@ -1,3 +1,0 @@
-#!/usr/bin/with-contenv bash
-
-exec rix_template --port=8080 --config=/config --example=$EXAMPLE
