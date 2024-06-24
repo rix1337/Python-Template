@@ -28,4 +28,4 @@ VOLUME /config
 EXPOSE 8080
 ENV PYTHONUNBUFFERED=1
 
-ENTRYPOINT ["rix_template", "--port=8080", "--config=/config", "--example=$EXAMPLE"]
+ENTRYPOINT ["sh", "-c", "rix_template --port=8080 --config=/config --example=$EXAMPLE"]

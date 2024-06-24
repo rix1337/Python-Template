@@ -80,7 +80,7 @@ def main():
             shared_state.update("port", 8080)
 
         if arguments.config:
-            shared_state.update("config", arguments.cache)
+            shared_state.update("config", arguments.config)
         else:
             shared_state.update("config", "./config")
 
